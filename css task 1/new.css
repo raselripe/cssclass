@@ -1,0 +1,116 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Section */
+header {
+    background-color: #007bff;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header .lOGO img {
+    height: 50px 50px;
+}
+
+header Nav {
+    margin-right: 20px;
+}
+
+header .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+header .menu li {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+header .menu li:hover {
+    color: #ffe600;
+}
+
+header .menu button {
+    background-color: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+header .menu button:hover {
+    background-color: #ff4757;
+}
+
+/* Form Section */
+.form {
+    background-color: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form form div {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form input,
+.form select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.form p {
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.form input[type="radio"] {
+    margin-right: 10px;
+}
+h3{
+    height: 10px 20px;
+text-align: center;
+font-style: normal;
+shape-margin: 20px;
+   
+}
